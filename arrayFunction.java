@@ -9,7 +9,7 @@ public class arrayFunction {
         System.out.println("Введите значения массива:");
         for (int i = 0; i < array.length; i++) {
             array[i] = sc1.nextInt();
-            System.out.print(array[i] + " ");
+            System.out.println(array[i] + " ");
         }
         sc1.close();
     }
