@@ -18,6 +18,6 @@ public class forWhileFunction {
             a = a + 39;
             c = b;
         }
-        System.out.println("Максимальное число = " + c * 39);
+        System.out.println("Максимальное число до 5000 = " + c * 39);
     }
 }
