@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class arrayFunction {
@@ -6,11 +7,12 @@ public class arrayFunction {
         //выполнения программы.
         int [] array = new int[10];
         Scanner sc1 = new Scanner(System.in);
-        System.out.println("Введите значения массива:");
         for (int i = 0; i < array.length; i++) {
+            System.out.println("Введите значение " + (i+1) + " массива:");
             array[i] = sc1.nextInt();
-            System.out.println(array[i] + " ");
+
         }
+        System.out.println(Arrays.toString(array));
         sc1.close();
     }
 }
