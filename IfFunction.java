@@ -17,7 +17,7 @@ public class IfFunction {
             System.out.printf("Первое уменьшенное в 2 раза число равна: %d \n", res);
         }
         else {
-            System.out.println("Первое число должно быть больше второго");
+            System.out.println("Первое число должно быть больше второго числа!");
         }
     }
 }
