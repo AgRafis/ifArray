@@ -16,3 +16,5 @@ public class arrayFunction {
         sc1.close();
     }
 }
+
+// добавил провто коммент
